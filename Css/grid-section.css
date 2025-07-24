@@ -1,0 +1,54 @@
+.grid-section{
+    display: grid;
+    width: 70%;
+    margin: 20px auto;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.flower-grid{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.flower-grid div button{
+    width: 100%;
+}
+.flower-grid div h1{
+    font-size: 2em;
+}
+.flower-grid{
+    box-sizing: border-box;
+}
+.btn{
+    padding: 15px 80px;
+    font-size: 0.95em;
+    color: white;
+    border: none;
+    background-color: #E95A08;
+}
+/* responsive */
+@media screen and (max-width:576px) {
+   .grid-section{
+    
+    width: 90%;
+   
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+} 
+.flower-grid div h1{
+    font-size: 1em;
+}
+.grid-section img{
+    width: 100%;
+}
+.flower-grid div button{
+   
+    padding: 10px 22px;
+}
+}
+
+
+/* responsive */
